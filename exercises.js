@@ -198,7 +198,13 @@ console.log(checkQuotient());
  *   @variable Datatype: Number `bango3`
  *   @variable Datatype: Number `bango4`
  *   @variable Datatype: Number `bango5`
- 
+ */
+
+var bango3 = 6;
+var bango4 = 8;
+var bango5 = 9;
+
+ /*
  * #10
  * Function - addThenSubtract
  *   
@@ -213,7 +219,12 @@ console.log(checkQuotient());
  * Console.log your result.
 */ 
 
+function addThenSubtract(num1, num2, num3){
+    var sum = add(num1, num2);
+    return subtract(sum, num3);
+}
 
+console.log(addThenSubtract(bango3,bango4,bango5));
 
 /*
  * #11
