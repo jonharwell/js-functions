@@ -159,7 +159,6 @@ function checkDifference(x){
 
 console.log(checkDifference(difference));
 
-
 /*
  * #8
  * Function - checkProduct
@@ -171,7 +170,11 @@ console.log(checkDifference(difference));
  * Console.log your result.  
 */
 
+function checkProduct(){
+    return sum * product
+}
 
+console.log(checkProduct());
 
 /*
  * #9
