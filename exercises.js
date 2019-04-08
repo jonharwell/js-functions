@@ -141,7 +141,6 @@ function checkSum(x){
 console.log(checkSum(sum));
 
 
-
 /*
  * #7
  * Function - checkDifference
@@ -154,6 +153,11 @@ console.log(checkSum(sum));
  * Console.log your results.
 */ 
 
+function checkDifference(x){
+    return 'Last night I dreamt that I ate ' + x + ' Taco Bell soft tacos.';
+}
+
+console.log(checkDifference(difference));
 
 
 /*
